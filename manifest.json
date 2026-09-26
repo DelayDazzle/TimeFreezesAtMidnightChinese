@@ -1,0 +1,10 @@
+{
+  "Name": "TimeFreezesAtMidnight Chinese Localization",
+  "Author": "DelayDazzle",
+  "Version": "1.0.0",
+  "Description": "TimeFreezesAtMidnight 的独立汉化补丁。",
+  "UniqueID": "DelayDazzle.TimeFreezesAtMidnightChinese",
+  "EntryDll": "TimeFreezesAtMidnightChinese.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}
