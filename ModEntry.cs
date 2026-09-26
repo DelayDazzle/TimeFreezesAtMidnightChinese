@@ -21,8 +21,7 @@ namespace TimeFreezesAtMidnightChinese
             ["Set at what point the game should prevent time from advancing"] = "设置游戏阻止时间推进的时间点（2400代表凌晨2点）",
             ["Use legacy method"] = "使用旧版方法",
             ["Not recommended"] = "不推荐",
-            ["PS: The legacy method, rather than freezing time, kept checking whenever the clock went over the set time, reverting it back each time. This caused problems if you picked something close to 2AM, ticking JUST over it and causing the player to collapse into the next day."] = "附注：旧版方法不是冻结时间，而是在时钟超过设定时间时不断检查并将其重置。如果在接近凌晨2点设置，会导致时间刚刚超过就触发玩家晕倒进入下一天的问题。"
-        };
+            ["PS: The legacy method, rather than freezing time, kept checking whenever the clock went over the set time, reverting it back each time. This caused problems if you picked something close to 2AM, ticking JUST over it and causing the player to collapse into the next day."] = "附注：旧版方法不是冻结时间，而是不断检查时钟并重置。\n如果在接近凌晨2点设置，会导致时间刚刚超过就触发玩家晕倒进入下一天的问题。"        };
 
         public override void Entry(IModHelper helper)
         {
